@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
@@ -55,7 +55,7 @@ h3 {
 
 .title-subtext {
     font-weight: 300;
-    line-height: 2.5rem;
+    line-height: 3rem;
     color: #ECF2FF;
 }
 
@@ -174,12 +174,12 @@ h3 {
 
 @media (max-width: 1199px) {
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         /* font-weight: 900; */
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         /* font-weight: 900; */
         color: #3E54AC;
     }

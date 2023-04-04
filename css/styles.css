@@ -1,0 +1,245 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #3E54AC;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #3E54AC;
+}
+
+.container-fluid {
+    padding: 3% 15% 0;
+}
+
+.navbar {
+    padding-bottom: 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* TITLE SECTION */
+
+#title {
+    /* https://colorhunt.co/palette/ecf2ff3e54ac655dbbbface2 */
+    background-color: #655DBB;
+    color: #ECF2FF;
+    position: relative;
+}
+
+.title-subtext {
+    font-weight: 300;
+    line-height: 2.5rem;
+    color: #ECF2FF;
+}
+
+.download-button {
+    margin: 2% 3% 7%;
+}
+
+.phone-mockup {
+    width: 40%;
+    position: absolute;
+}
+
+/* FEATURES SECTION */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-div {
+    text-align: center;
+    padding: 10% 5%;
+}
+
+.feat-icon {
+    color: #3e54ac;
+    margin-bottom: 1rem;
+}
+
+.feat-icon:hover {
+    color: #BFACE2;
+}
+
+.feature-text {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    background-color: #655DBB;
+    text-align: center;
+}
+
+.testimonial {
+    font-family: 'Montserrat', sans-serif;
+    color: #ECF2FF;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 5% 10% 5% 10%;
+    height: 10%;
+}
+
+.testimonial-pic {
+    width: 15%;
+}
+
+.testimonial-id {
+    color: #ECF2FF;
+    font-size: 1.5rem;
+}
+
+#press {
+    background-color: #655DBB;
+    text-align: center;
+    padding: 5% 5% 0;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0 3% 3%;
+}
+
+/* PRICING SECTION */
+.pricing-header {
+    margin: 5% 15% 0;
+}
+
+.pricing-subtext {
+    /* margin-bottom: 2%; */
+    color: #8f8f8f;
+}
+
+.pricing-col {
+    padding-left: 0;
+}
+
+.pricing-card {
+    margin-top: 1rem;
+    height: 23rem;
+    text-align: center;
+}
+
+.pricing-deck {
+    margin: 0 15% 10%;
+}
+
+.sign-button {
+    width: 10rem;
+    margin: 0 auto 1rem;
+}
+
+#cta{
+    background-color:#655DBB;
+    text-align: center;    
+}
+
+.cta-title{
+    color: #ECF2FF;
+    padding: 5% 0 0;
+}
+
+#footer{
+    text-align: center;
+    color: #8f8f8f;
+}
+
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 2rem;
+        /* font-weight: 900; */
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        /* font-weight: 900; */
+        color: #3E54AC;
+    }
+
+    h3 {
+        /* font-weight: 900; */
+        font-size: 1.2rem;
+        /* color: #3E54AC; */
+    }
+
+    p{
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand {
+        font-family: 'Ubuntu';
+        font-size: 1.5rem;
+    }
+
+    #title {
+        /* https://colorhunt.co/palette/ecf2ff3e54ac655dbbbface2 */
+        background-color: #655DBB;
+        color: #ECF2FF;
+        position: relative;
+        text-align: center;
+    }    
+
+    .title-subtext {
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: #ECF2FF;
+    }
+
+    .phone-mockup {
+        width: 60%;
+        position: relative;
+    }
+
+    .testimonial {
+        font-family: 'Montserrat', sans-serif;
+        color: #ECF2FF;
+        font-size: 1.5rem;
+        line-height: 1;
+        font-weight: 900;
+        padding: 5% 20% 5%;
+        height: 10%;
+    }
+
+    .testimonial-id {
+        color: #ECF2FF;
+        font-size: 0.9rem;
+    }
+
+    #pricing {
+        text-align: center;
+    }
+
+    .pricing-card {
+        margin-top: 1rem;
+        height: 20rem;        
+    }
+}

@@ -12,8 +12,10 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&family=Ubuntu:wght@500&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700;6..96,900&family=Montserrat:wght@300;500;900&family=Noto+Serif+Display:wght@900&family=Playfair+Display:wght@900&family=Ubuntu:wght@500&display=swap"
     rel="stylesheet">
+
   <!-- Fontawesome kit -->
   <link href="./assets/fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="./assets/fontawesome/css/brands.css" rel="stylesheet">
@@ -22,7 +24,7 @@
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -34,16 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,12 +51,8 @@
       <!-- Title -->
       <div class="row">
         <div class="col-xl-6">
-          <h1>Scalable and responseive web dashboards for your business.</h1>
-          <h2 class="title-subtext">All the tools and integrations you need to make your business an efficient custom
-            dashboard.</h2>
-          <!-- <h2 class="title-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et
-            dolore magna aliqua.</h2> -->
+          <h1 class="title-text">Responsive web dashboards for your business.</h1>
+          <h2 class="title-subtext">All the tools and templates you need to make your custom dashboard.</h2>
 
           <!-- Download Buttons -->
           <button type="button" class="btn btn-outline-light btn-lg download-button">
@@ -69,7 +64,7 @@
         <!-- Title Image -->
         <div class="col-xl-6">
           <div>
-            <img class="phone-mockup" src="./images/phone-mockup.svg" alt="iphone-mockup">
+            <img class="title-image" src="./images/title-image.svg" alt="title-image">
           </div>
         </div>
       </div>
@@ -78,35 +73,33 @@
 
 
   <!-- Features -->
-  <section id="features">
+  <section class="white-section" id="features">
     <div class="container-fluid">
-
       <div class="row">
         <div class="col-md-4 feature-div">
           <i class="fa-solid fa-mug-saucer fa-5x feat-icon"></i>
-          <h3>Easy to use.</h3>
+          <h3 class="medium-header">Easy to use.</h3>
           <p class="feature-text">Our apps are clean cut and fast.</p>
         </div>
         <div class="col-md-4 feature-div">
           <i class="fa-solid fa-magnifying-glass-chart fa-5x feat-icon"></i>
-          <h3>Beautiful graphs.</h3>
-          <p class="feature-text">Get the best data visualisation tools on your apps.</p>
+          <h3 class="medium-header">Beautiful graphs.</h3>
+          <p class="feature-text">Quickly employ the best data visualisation tools.</p>
         </div>
         <div class="col-md-4 feature-div">
           <!-- <i class="fa-solid fa-display fa-5x feat-icon"></i> -->
           <i class="fa-solid fa-mobile-screen fa-5x feat-icon"></i>
-          <h3>It's Responsive.</h3>
-          <p class="feature-text">Your apps will work no matter the platform you're on.</p>
+          <h3 class="medium-header">It's Responsive.</h3>
+          <p class="feature-text">Look good no matter what platform you're on.</p>
         </div>
       </div>
     </div>
-
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
 
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
@@ -139,104 +132,89 @@
 
   </section>
 
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-  </section>
-
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
+    <div class="container-fluid">
+      <h2 class="section-title">Plans & Pricing</h2>
+      <!-- <p class="pricing-subtext">Simple and affordable price plans.</p> -->
 
-    <div class="pricing-header">
-      <h2>Plans & Pricing</h2>
-      <p class="pricing-subtext">Simple and affordable price plans for you or your company.</p>
+      <div class="pricing-deck row">
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="pricing-card card">
+            <div class="card-header">
+              <h3 class="medium-header">Basic</h3>
+            </div>
+            <div class="card-body">
+              <button type="button" class="btn btn-outline-primary btn-lg sign-button">Sign Up</button>
+              <h3>Free</h3>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4 col-md-6">
+          <div class="pricing-card card">
+            <div class="card-header">
+              <h3 class="medium-header">Pro</h3>
+            </div>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-lg sign-button">Sign Up</button>
+              <h3 class="medium-header">$49 / mo</h3>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col col-lg-4">
+          <div class="pricing-card card">
+            <div class="card-header">
+              <h3 class="medium-header">Enterprise</h3>
+            </div>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-lg sign-button">Sign Up</button>
+              <h3 class="medium-header">$99 / mo</h3>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="pricing-deck row">
-
-      <div class="pricing-col col-lg-4 col-md-6">
-        <div class="pricing-card card">
-          <div class="card-header">
-            <h3>Basic</h3>
-          </div>
-          <div class="card-body">
-            <button type="button" class="btn btn-outline-primary btn-lg sign-button">Sign Up</button>
-            <h2>Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="pricing-col col-lg-4 col-md-6">
-        <div class="pricing-card card">
-          <div class="card-header">
-            <h3>Pro</h3>
-          </div>
-          <div class="card-body">
-            <button type="button" class="btn btn-primary btn-lg sign-button">Sign Up</button>
-            <h2>$49 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-          </div>
-        </div>
-
-      </div>
-      <div class="pricing-col col-lg-4">
-        <div class="pricing-card card">
-          <div class="card-header">
-            <h3>Enterprise</h3>
-          </div>
-          <div class="card-body">
-            <button type="button" class="btn btn-primary btn-lg sign-button">Sign Up</button>
-            <h2>$99 / mo</h2>
-            <p>Pirority Listing</p>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
   </section>
-
 
   <!-- Call to Action -->
 
-  <section id="cta">
-
-    <h3 class="cta-title">Get your flexible and efficient web dashboard.</h3>
+  <section class="colored-section" id="cta">
+    <!-- <h3 class="cta-title">Get your flexible and efficient web dashboard.</h3> -->
+    <h1 class="cta-title section-title">Deploy your own web dashboards.</h1>
     <button type="button" class="btn btn-outline-light btn-lg download-button">
       <i class="fa-brands fa-apple fa-1x" style="color: #ffffff;"></i> Download
     </button>
     <button type="button" class="btn btn-outline-light btn-lg download-button"> <i
         class="fa-brands fa-google-play fa-sm" style="color: #ffffff;"></i> Download
     </button>
-
   </section>
-
 
   <!-- Footer -->
 
-  <footer id="footer">
-    <a href="https://storyset.com/user">User illustrations by Storyset</a>
-    <p>© Copyright TinDog</p>
-
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a class="links" href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+      <a class="links" href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+      <a class="links" href=""><i class="fa-solid fa-envelope fa-2xl"></i></a>
+      <br>
+      <a class="links" href="https://storyset.com/user">Illustrations by Storyset</a>
+      <p>© Copyright Sprout Tech</p>
+    </div>
   </footer>
 
-  <!-- CSS include -->
-  <script class="illustration_credit"
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  <!-- BOOTSTRAP CSS include -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
 </body>

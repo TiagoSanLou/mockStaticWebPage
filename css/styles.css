@@ -17,7 +17,8 @@ h6 {
 
 .colored-section h1,
 .colored-section h2,
-.colored-section h3 {
+.colored-section h3,
+.colored-section em {
     color: #F5F5F5;
 }
 

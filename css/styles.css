@@ -53,8 +53,7 @@ h6 {
 
 .navbar-brand {
     color: #F5F5F5;
-    font-family: 'Ubuntu';    
-    font-family: 'Bodoni Moda', serif;    
+    font-family: 'Bodoni Moda', serif;
     font-size: 2.5rem;
     font-weight: 900;
 }
@@ -183,7 +182,56 @@ h6 {
     color: #8f8f8f;
 }
 
-@media (max-width: 1199px) {
+/* MOBILE LAYOUT */
+@media (max-width: 989px) {
+    .container-fluid {
+        padding: 3% 5%;                
+    }
+
+    .navbar-brand {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+
+    .nav-item {
+        padding: 0 1rem;
+    }
+
+    .nav-link {
+        color: #F5F5F5;
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        font-weight: 300;
+    }
+
+    .medium-header {
+        font-size: 3rem;
+    }
+
+    .title-text {
+        font-size: 5rem;
+        padding: 15% 0 0;
+        text-align: center;
+    }
+
+    .title-subtext {
+        font-weight: 300;
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+    }    
+
+    .feature-div {
+        padding: 1% 1%;
+    }
+
+    .feature-text {
+        font-size: 2rem;
+        color: #8f8f8f;
+    }
+}
+
+@media (min-width: 990 and max-width: 1199px) {
     .section-title {
         font-size: 3rem;
         padding-bottom: 3%;
